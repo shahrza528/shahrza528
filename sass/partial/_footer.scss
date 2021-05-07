@@ -1,0 +1,176 @@
+footer {
+  height: 350px;
+  .container {
+    padding-top: 0px;
+    .row {
+      .footerOne {
+        .footer_logo {
+          img {
+            margin-bottom: 40px;
+          }
+        }
+        p {
+          color: $colorLowerText;
+          font-family: $myFont;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 23px;
+          margin-bottom: 15px;
+        }
+        .social {
+          i {
+            color: $colorLowerText;
+            border: 1px solid $colorLowerText;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            line-height: 28px;
+            text-align: center;
+            font-size: 14px;
+            transition: $transition;
+            &:hover {
+              color: $colorWhite;
+              background-color: $colorHover;
+              border: none;
+            }
+          }
+        }
+      }
+      .footerTwo {
+        h3 {
+          font-size: 20px;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-family: "Open Sans", sans-serif;
+          color: #606060;
+          margin-bottom: 45px;
+          position: relative;
+          &::before {
+            background: #606060 none repeat scroll 0 0;
+            bottom: -13px;
+            content: "";
+            height: 1px;
+            left: 0;
+            position: absolute;
+            width: 45px;
+          }
+          &::after {
+            background: #606060 none repeat scroll 0 0;
+            bottom: -10px;
+            content: "";
+            height: 1px;
+            left: 0;
+            position: absolute;
+            width: 57px;
+          }
+        }
+        ul {
+          margin-top: 25px;
+          li {
+            color: $colorLowerText;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 16px;
+            text-transform: capitalize;
+            a {
+              outline: medium none;
+              color: $colorLowerText;
+              transition: $transition;
+              text-decoration: none;
+              &:hover {
+                color: $colorHover;
+              }
+            }
+          }
+        }
+      }
+      .footerThree {
+        h3 {
+          font-size: 20px;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-family: "Open Sans", sans-serif;
+          color: #606060;
+          margin-bottom: 45px;
+          position: relative;
+          &::before {
+            background: #606060 none repeat scroll 0 0;
+            bottom: -13px;
+            content: "";
+            height: 1px;
+            left: 0;
+            position: absolute;
+            width: 45px;
+          }
+          &::after {
+            background: #606060 none repeat scroll 0 0;
+            bottom: -10px;
+            content: "";
+            height: 1px;
+            left: 0;
+            position: absolute;
+            width: 57px;
+          }
+        }
+        ul {
+          margin-top: 25px;
+          li {
+            color: $colorLowerText;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 16px;
+            text-transform: capitalize;
+            a {
+              outline: medium none;
+              color: $colorLowerText;
+              transition: $transition;
+              text-decoration: none;
+              &:hover {
+                color: $colorHover;
+              }
+            }
+          }
+        }
+      }
+      .footerFour {
+        h3 {
+          font-size: 20px;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-family: "Open Sans", sans-serif;
+          color: #606060;
+          margin-bottom: 45px;
+          position: relative;
+          &::before {
+            background: #606060 none repeat scroll 0 0;
+            bottom: -13px;
+            content: "";
+            height: 1px;
+            left: 0;
+            position: absolute;
+            width: 45px;
+          }
+          &::after {
+            background: $colorLowerText none repeat scroll 0 0;
+            bottom: -10px;
+            content: "";
+            height: 1px;
+            left: 0;
+            position: absolute;
+            width: 57px;
+          }
+        }
+        p {
+          color: $colorLowerText;
+          font-family: $myFont;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 23px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

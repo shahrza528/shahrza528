@@ -1,0 +1,13 @@
+$myFont: "Open Sans", sans-serif;
+$colorHover: #ec1c23;
+$colorUpperText: #303030;
+$colorLowerText: #606060;
+$colorWhite: #ffffff;
+$colorOpasity: rgba(44, 43, 94, 0.92);
+$transition: all 0.3s linear;
+@import "partial/variables"; //Хранит в себе все переменные (цвета шрифры)
+@import "partial/reset"; //Reset всех элементов
+@import "partial/responsive"; // Стиль Media Q Адоптация сайта
+@import "partial/header"; //Хранит в себе все стили вверхней части
+@import "partial/footer"; //Хранит в себе все стили футера
+@import "partial/home"; // Стиль index.html =>  HomeTwo
