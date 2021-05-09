@@ -1,255 +1,255 @@
-@media screen and (max-width: 1200px) {
-  body {
-    header {
-      .navbar_responsive {
-      }
-      .headerLoginSection {
-        .large {
-          .row {
-            .header-top {
-              .header-top-left {
-                p {
-                }
-              }
-              .header-top-right {
-                a {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    .headerNavBarSection {
-      .row {
-        // height: 131px;
+// @media screen and (max-width: 1200px) {
+//   body {
+//     header {
+//       .headerNavBarSection {
+//         .row {
+//           // height: 131px;
 
-        .navbar {
-          .container-fluid {
-            .navbar-brand {
-              img {
-              }
-            }
-            .navbar-collapse {
-              .navbar-nav {
-                // width: 100%; <=============== На маленьком экране
-                .nav-item {
-                  .nav-link {
-                    padding: 31px 9px !important;
-                  }
-                  .dropdown-toggle {
-                  }
-                  .dropdown-menu {
-                    li {
-                      a {
-                        &:hover {
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-              form {
-                .search-icon {
-                  i {
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//           .navbar {
+//             .container-fluid {
+//               .navbar-brand {
+//                 img {
+//                 }
+//               }
+//               .navbar-collapse {
+//                 .navbar-nav {
+//                   // width: 100%; <=============== На маленьком экране
+//                   .nav-item {
+//                     .nav-link {
+//                       padding: 31px 9px !important;
+//                     }
+//                     .dropdown-toggle {
+//                     }
+//                     .dropdown-menu {
+//                       li {
+//                         a {
+//                           &:hover {
+//                           }
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//                 form {
+//                   .search-icon {
+//                     i {
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//       .navbar_responsive {
+//       }
+//       .headerLoginSection {
+//         .large {
+//           .row {
+//             .header-top {
+//               .header-top-left {
+//                 p {
+//                 }
+//               }
+//               .header-top-right {
+//                 a {
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-@media screen and (max-width: 992px) {
-  body {
-    header {
-      .navbar_responsive {
-      }
-      .headerLoginSection {
-        .row {
-          .header-top {
-            .header-top-left {
-              p {
-              }
-            }
-            .header-top-right {
-              a {
-              }
-            }
-          }
-        }
-      }
-    }
-    .headerNavBarSection {
-      .search_button {
-        display: block !important;
-      }
-      .menu_button {
-        display: flex !important;
-        i {
-        }
-      }
-      .row {
-        // height: 131px;
+// @media screen and (max-width: 992px) {
+//   body {
+//     header {
+//       .navbar_responsive {
+//       }
+//       .headerLoginSection {
+//         .row {
+//           .header-top {
+//             .header-top-left {
+//               p {
+//               }
+//             }
+//             .header-top-right {
+//               a {
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .headerNavBarSection {
+//       .search_button {
+//         display: block !important;
+//       }
+//       .menu_button {
+//         display: flex !important;
+//         i {
+//         }
+//       }
+//       .row {
+//         // height: 131px;
 
-        .navbar {
-          .container-fluid {
-            .navbar-brand {
-              img {
-              }
-            }
-            .navbar-collapse {
-              display: none !important;
-              .navbar-nav {
-                // width: 100%; <=============== На маленьком экране
-                .nav-item {
-                  .nav-link {
-                  }
-                  .dropdown-toggle {
-                  }
-                  .dropdown-menu {
-                    li {
-                      a {
-                        &:hover {
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-              form {
-                .search-icon {
-                  i {
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//         .navbar {
+//           .container-fluid {
+//             .navbar-brand {
+//               img {
+//               }
+//             }
+//             .navbar-collapse {
+//               display: none !important;
+//               .navbar-nav {
+//                 // width: 100%; <=============== На маленьком экране
+//                 .nav-item {
+//                   .nav-link {
+//                   }
+//                   .dropdown-toggle {
+//                   }
+//                   .dropdown-menu {
+//                     li {
+//                       a {
+//                         &:hover {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//               form {
+//                 .search-icon {
+//                   i {
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-@media screen and (max-width: 768px) {
-  body {
-    header {
-      .headerLoginSection {
-        .row {
-          .header-top {
-            .header-top-left {
-              p {
-              }
-            }
-            .header-top-right {
-              a {
-              }
-            }
-          }
-        }
-      }
-    }
-    .headerNavBarSection {
-      .row {
-        // height: 131px;
+// @media screen and (max-width: 768px) {
+//   body {
+//     header {
+//       .headerLoginSection {
+//         .row {
+//           .header-top {
+//             .header-top-left {
+//               p {
+//               }
+//             }
+//             .header-top-right {
+//               a {
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .headerNavBarSection {
+//       .row {
+//         // height: 131px;
 
-        .navbar {
-          .container-fluid {
-            .navbar-brand {
-              img {
-              }
-            }
-            .navbar-collapse {
-              .navbar-nav {
-                // width: 100%; <=============== На маленьком экране
-                .nav-item {
-                  .nav-link {
-                  }
-                  .dropdown-toggle {
-                  }
-                  .dropdown-menu {
-                    li {
-                      a {
-                        &:hover {
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-              form {
-                .search-icon {
-                  i {
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//         .navbar {
+//           .container-fluid {
+//             .navbar-brand {
+//               img {
+//               }
+//             }
+//             .navbar-collapse {
+//               .navbar-nav {
+//                 // width: 100%; <=============== На маленьком экране
+//                 .nav-item {
+//                   .nav-link {
+//                   }
+//                   .dropdown-toggle {
+//                   }
+//                   .dropdown-menu {
+//                     li {
+//                       a {
+//                         &:hover {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//               form {
+//                 .search-icon {
+//                   i {
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-@media screen and (max-width: 576px) {
-  body {
-    header {
-      .headerLoginSection {
-        .row {
-          .header-top {
-            .header-top-left {
-              p {
-              }
-            }
-            .header-top-right {
-              a {
-              }
-            }
-          }
-        }
-      }
-    }
-    .headerNavBarSection {
-      .row {
-        // height: 131px;
+// @media screen and (max-width: 576px) {
+//   body {
+//     header {
+//       .headerLoginSection {
+//         .row {
+//           .header-top {
+//             .header-top-left {
+//               p {
+//               }
+//             }
+//             .header-top-right {
+//               a {
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .headerNavBarSection {
+//       .row {
+//         // height: 131px;
 
-        .navbar {
-          .container-fluid {
-            .navbar-brand {
-              img {
-              }
-            }
-            .navbar-collapse {
-              .navbar-nav {
-                // width: 100%; <=============== На маленьком экране
-                .nav-item {
-                  .nav-link {
-                  }
-                  .dropdown-toggle {
-                  }
-                  .dropdown-menu {
-                    li {
-                      a {
-                        &:hover {
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-              form {
-                .search-icon {
-                  i {
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//         .navbar {
+//           .container-fluid {
+//             .navbar-brand {
+//               img {
+//               }
+//             }
+//             .navbar-collapse {
+//               .navbar-nav {
+//                 // width: 100%; <=============== На маленьком экране
+//                 .nav-item {
+//                   .nav-link {
+//                   }
+//                   .dropdown-toggle {
+//                   }
+//                   .dropdown-menu {
+//                     li {
+//                       a {
+//                         &:hover {
+//                         }
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//               form {
+//                 .search-icon {
+//                   i {
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

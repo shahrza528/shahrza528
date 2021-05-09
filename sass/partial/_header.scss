@@ -5,8 +5,9 @@ body {
     #return-to-top {
       z-index: 99999999999;
       position: fixed;
+      right: 30px;
       bottom: 20px;
-      right: 20px;
+
       background: rgb(0, 0, 0);
       background: $colorHover;
       width: 50px;
@@ -61,62 +62,67 @@ body {
     //======================================
 
     .headerLoginSection {
-      .row {
-        .header-top {
-          height: 68px;
-          display: flex;
-          overflow: hidden;
-
-          .header-top-left {
-            background-color: $colorHover;
-          }
-          p {
-            z-index: 300;
-            text-align: center;
-            position: relative;
-            font-size: 15px;
-            line-height: 68px;
-            font-weight: 600;
-            color: $colorWhite;
-            &::after {
-              content: "";
-              position: absolute;
-              width: 107px;
-              height: 6px;
-              background-color: white;
-              z-index: 887;
-              top: 30px;
-              transform: rotate(45deg);
-              right: -90px;
-            }
-            &::before {
-              z-index: 299;
-              content: "";
-              z-index: 0;
-              position: absolute;
-              width: 97px;
-              height: 69px;
-              background-color: $colorHover;
-              z-index: 887;
-              top: 26px;
-              transform: rotate(45deg);
-              right: -60px;
-            }
-          }
-          .header-top-right {
+      .container-flued {
+        .row {
+          padding: 0px 0px;
+          margin: 0px 0px;
+          .header-top {
+            height: 68px;
             display: flex;
-            justify-content: flex-end;
-            background-color: $colorOpasity;
-            a {
-              text-decoration: none;
-              margin-right: 30px;
+            overflow: hidden;
+            padding: 0px 0px;
+
+            .header-top-left {
+              background-color: $colorHover;
+            }
+            p {
+              z-index: 300;
+              text-align: center;
+              position: relative;
               font-size: 15px;
               line-height: 68px;
               font-weight: 600;
               color: $colorWhite;
-              transition: $transition;
-              &:hover {
-                color: $colorHover;
+              &::after {
+                content: "";
+                position: absolute;
+                width: 107px;
+                height: 6px;
+                background-color: white;
+                z-index: 887;
+                top: 30px;
+                transform: rotate(45deg);
+                right: -90px;
+              }
+              &::before {
+                z-index: 299;
+                content: "";
+                z-index: 0;
+                position: absolute;
+                width: 97px;
+                height: 69px;
+                background-color: $colorHover;
+                z-index: 887;
+                top: 26px;
+                transform: rotate(45deg);
+                right: -60px;
+              }
+            }
+            .header-top-right {
+              display: flex;
+              justify-content: flex-end;
+              background-color: $colorOpasity;
+              a {
+                text-decoration: none;
+                margin-right: 30px;
+                font-size: 15px;
+                line-height: 68px;
+                font-weight: 600;
+                color: $colorWhite;
+                transition: $transition;
+                &:hover {
+                  color: $colorHover;
+                }
               }
             }
           }
@@ -124,8 +130,7 @@ body {
       }
     }
     .headerNavBarSection {
-      z-index: 990;
-      width: 100%;
+      z-index: 9999;
       .container {
         position: relative;
         .search_button {
@@ -172,7 +177,7 @@ body {
                   position: relative;
                   margin: auto !important;
                   .nav-item {
-                    z-index: 20;
+                    z-index: 99999;
                     position: relative;
                     .nav-link {
                       z-index: 21;
@@ -190,8 +195,8 @@ body {
                     }
                     .dropdown-menu {
                       width: 200px;
-
                       position: absolute;
+                      z-index: 99999999;
                       top: 72px;
                       li {
                         a {
@@ -230,7 +235,7 @@ body {
     }
     .navbar_responsive {
       display: none;
-      z-index: 888;
+      z-index: 99999999999;
       .custom-nav-container {
         display: block;
         .custom-nav-item {

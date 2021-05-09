@@ -13,12 +13,13 @@ $(document).ready(function() {
             if ($(this).scrollTop() >20) {        // If page is scrolled more than 50px
                 $('.headerNavBarSection').css("position","fixed");    // Fade in the arrow
                 $('.headerNavBarSection').css("top","0px");    // Fade in the arrow
-                $('.headerNavBarSection').css("background-color","rgb(188,184,184, 0.9)");    // Fade in the arrow
+                $('.headerNavBarSection').css("background-color","rgb(247,247,247, 0.9)");    // Fade in the arrow
                 $('.headerNavBarSection').css("width","100%");    // Fade in the arrow
-                $('.headerNavBarSection').css("height","70px");    // Fade in the arrow
+                $('.headerNavBarSection').css("height","80px");    // Fade in the arrow
             }else{
                 $('.headerNavBarSection').css("position","relative");    // Fade in the arrow
                 $('.headerNavBarSection').css("background-color","unset");    // Fade in the arrow
+
             };
 
           });
@@ -98,7 +99,10 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 $('#showvideo').click(function(e) {    
     e.preventDefault();        
     $('#test').html('<iframe id="video" width="820" height="715" src="//www.youtube.com/embed/aS3DPglji0o?rel=0" frameborder="0" allowfullscreen></iframe>');
-    $('#test').css("display","flex")
+    $('#test').slideToggle(100);
+    $('#test').css("display","flex"
+    )
+    
 });
 // Slicki 
 $('.item_1').slick({
@@ -109,5 +113,3 @@ $('.item_1').slick({
   });
 
 });
-
-
